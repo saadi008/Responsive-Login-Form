@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(pexels-max-deroin-51415.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  font-family: sans-serif;
+}
+
+/* styling for .login class */
+.login {
+  width: 280px;
+  height: 370px;
+  background-color: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 40px 25px;
+  border-radius: 10px;
+}
+
+/* styling for h1 tag */
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login h1 {
+  background-color: #9b0dee;
+  border-radius: 6px;
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* styling for input */
+
+.login input {
+  width: 100%;
+  margin-bottom: 18px;
+  border-radius: 4px;
+}
+
+/* styling for input type text and password or sumbit btn */
+.login input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  outline: none;
+  height: 20px;
+  font-size: 16px;
+}
+
+.login input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 30px;
+  color: #fff;
+  background-color: #000;
+  font-size: 17px;
+  border-radius: 20px;
+}
+.login input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #9b0dee;
+  color: #05282b;
+  transition: 0.6s ease;
+  font-weight: bold;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #7289da;
+}
+.login a:hover {
+  color: #ffde5d;
+  text-decoration: underline;
+  transition: 0.3s ease;
+}
